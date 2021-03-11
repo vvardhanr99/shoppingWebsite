@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-image: linear-gradient(rgba(120, 150, 226, 0.4),
+    rgba(42, 201, 122, 0.4),rgba(42, 64, 201, 0.4)),url("login.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header>h4{
+    text-align: center;
+    font-size: 150%;
+    margin: 20px 0 0 0;
+    color: azure;
+    position: relative;
+}
+.container{
+    background-color: rgba(1, 1, 1, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 1px transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(1,1,1,0.3);
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    color: snow;
+}
+.name,.password,.button{
+    padding: 10px;
+}
+#name,#password{
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    padding: 7px;
+    border: 1px  transparent;
+}
+#cbox{
+    margin-left: 10px;
+}
+.button{
+    margin-top:10px;
+}
+#Submit{
+    width: 100%;
+    background-color: mediumseagreen;
+    padding: 5px;
+    outline:none;
+    border-color: mediumseagreen;
+    color: #fff;
+}
+#Submit:hover{
+    cursor: pointer;
+    background-color:aquamarine;
+    color:#131;
+}
+p{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline;
+    color: snow;
+}

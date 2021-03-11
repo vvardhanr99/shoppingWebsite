@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+   background: radial-gradient(rgba(50, 157, 168,.4),rgba(54, 121, 227,.4),rgba(105, 158, 66,.5),rgba(140, 66, 158,.6)); 
+   position: relative;
+}
+.content{
+    position: absolute;
+    left: 35%;
+    top:30%;
+}
+.container{
+    border: 1px solid #fff;
+    width: 150%;
+    height: auto;
+    margin:30px;
+}
+h3,p,#fpassword{
+    margin: 10px;
+}
+#fpassword{
+    width: 80%;
+    padding: 5px;
+    outline: none;
+    border-style: hidden;
+    border-bottom-color: aqua ;
+}
+#search,#cancel{
+    width:47%;
+    margin:10px 0 20px 5px;
+    padding:5px;
+    outline: none;
+}
+#search{
+    background-color: darkgreen;
+    outline-color: darkgreen;
+    color: cornsilk;
+}
+#search:hover{
+    cursor: pointer;
+}
+#cancel:hover{
+    cursor: pointer;
+}
+#cancel>a{
+    color: #121;
+    text-decoration: none;
+}

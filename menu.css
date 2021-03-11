@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url(shopformen.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.men{
+    position: absolute;
+    top: 78%;
+    left: 35%;
+}
+.women{
+    position:absolute;
+    top: 82%;
+    right: 15%;
+}
+#men,#women{
+    border-radius: 6px;
+    padding: 6px;
+    outline: none;
+    border-color: thistle;
+    border-style: hidden;
+}
+#men{
+    background-color:rgba(218, 184, 32, 0.9);
+    color: rgb(225, 225, 225,1.5);
+}
+#men:hover{
+    cursor: pointer;
+}
+#women{
+    background-color: deepskyblue;
+    color: #fff;
+}
+#women:hover{
+    cursor: pointer;
+}
